@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Sunshine</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="action_refresh" translatable="false">Refresh</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+    <string name="action_map">Mapa de Localização</string>
+    <string name="action_share">Compartilhamento</string>
+
+    <string name="pref_local_label">Localização</string>
+    <string name="pref_local_key" translatable="false">location</string>
+    <string name="pref_local_default" translatable="false">94043</string>
+
+    <string name="pref_units_label">Unidade de Temperatura</string>
+    <string name="pref_units_label_metric">Métrica</string>
+    <string name="pref_units_label_imperial">Imperial</string>
+    <string name="pref_units_key" translatable="false">unidade</string>
+    <string name="pref_units_metric" translatable="false">métrica</string>
+    <string name="pref_units_imperial" translatable="false">imperial</string>
+
+    <string-array name="pref_units_options">
+        <item>@string/pref_units_label_metric</item>
+        <item>@string/pref_units_label_imperial</item>
+    </string-array>
+
+    <string-array name="pref_units_values">
+        <item>@string/pref_units_metric</item>
+        <item>@string/pref_units_imperial</item>
+    </string-array>
+</resources>
